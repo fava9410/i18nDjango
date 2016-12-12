@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-30 15:53-0500\n"
+"POT-Creation-Date: 2016-12-06 10:55-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: formularios/views.py:6
+#: formularios/views.py:8
 msgid "hola mundo"
 msgstr "Hello world"
 
@@ -33,26 +33,42 @@ msgstr ""
 msgid "French"
 msgstr ""
 
-#: templates/registro.html:6
+#: templates/registro.html:10
 msgid "Registro"
 msgstr "Register"
 
-#: templates/registro.html:9
+#: templates/registro.html:13
 msgid "Mensaje"
 msgstr "Message"
 
-#: templates/registro.html:14
+#: templates/registro.html:18
 msgid "nombre"
 msgstr "name"
 
-#: templates/registro.html:15
+#: templates/registro.html:19
 msgid "apellido"
 msgstr "last name"
 
-#: templates/registro.html:16
+#: templates/registro.html:20
 msgid "telefono"
 msgstr "telephone"
 
-#: templates/registro.html:17
+#: templates/registro.html:21
 msgid "ciudad"
 msgstr "city"
+
+#: templates/registro.html:41
+msgid "Masculino"
+msgstr "Male"
+
+#: templates/registro.html:42
+msgid "Femenino"
+msgstr "Female"
+
+#: templates/registro.html:43
+msgid "Otro"
+msgstr "Other"
+
+#: templates/registro.html:45
+msgid "Enviar"
+msgstr "Send"

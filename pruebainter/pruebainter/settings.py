@@ -129,6 +129,9 @@ LANGUAGES = (
     ('fr', _('French')),
 )
 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+]
 
 
 # Static files (CSS, JavaScript, Images)

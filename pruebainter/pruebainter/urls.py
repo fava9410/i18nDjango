@@ -17,10 +17,16 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from formularios import views as u
 from django.conf.urls.i18n import i18n_patterns
+from django.views.i18n import javascript_catalog
 
 #urlpatterns = [
+js_info_dict = {
+    'packages': ('your.app.package',),
+}
+
 urlpatterns = i18n_patterns(#'',
     url(r'^admin/', admin.site.urls),
     url(r'^usuario/$', u.registro_usuario),
+    url(r'^jsi18n/$', javascript_catalog, js_info_dict, name='javascript-catalog'),
 #]
 )
